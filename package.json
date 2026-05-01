@@ -1,0 +1,1 @@
+{\n  "name": "n8n-prod",\n  "version": "1.0.0",\n  "description": "Production setup for n8n with Docker support",\n  "main": "index.js",\n  "scripts": {\n    "start": "node index.js",\n    "deploy": "sh deploy.sh"\n  },\n  "dependencies": {\n    "n8n": "^0.136.0"\n  },\n  "devDependencies": {},\n  "engines": {\n    "node": ">=14"\n  }\n}
